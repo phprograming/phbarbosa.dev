@@ -19,7 +19,6 @@ const Index = (props) => {
     )
 }
 
-
 export async function getStaticProps() {
     const request = await fetch(process.env.NEXT_PUBLIC_API_URL + '/api/getUser')
     const { repos, user } = await request.json()
@@ -35,8 +34,7 @@ export async function getStaticProps() {
 
 /*
 export async function getServerSideProps(context){
-    //const request = await fetch(process.env.API_URL + '/api/getUser')
-    const request = await fetch('https://api.github.com/users/phprograming/repos')
+    const request = await fetch(process.env.API_URL + '/api/getUser')
     const { repos, user } = await request.json()
     return {
         props: {
@@ -45,6 +43,6 @@ export async function getServerSideProps(context){
             user
         }
     }
-}*/
-
+}
+*/
 export default Index
