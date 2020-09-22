@@ -7,11 +7,13 @@ const fetcher = (...args) => fetch(...args).then(res => res.json())
 
 const Repos = ({ user, repos }) => {
 
+  /*
   const { data } = useSWR(process.env.NEXT_PUBLIC_API_URL + '/api/getUser', fetcher)
   if (!data) {
     return <p>Loading...</p>
   }
   const { user, repos } = data
+  */
 
   return (
     <div>
