@@ -21,6 +21,7 @@ const Index = (props) => {
 
 export async function getStaticProps() {
     const request = await fetch(process.env.NEXT_PUBLIC_API_URL + '/api/getUser')
+    console.log(request);
     const { repos, user } = await request.json()
     return {
         props: {
