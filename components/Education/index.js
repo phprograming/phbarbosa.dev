@@ -3,14 +3,9 @@ import EducationItem from './EducationItem'
 
 const degrees = [
   {
-    degree: 'Master´s Degree',
-    subject: 'Computer´s Information Systems',
-    institution: 'USP - University of São Paulo'
-  },
-  {
-    degree: 'Graduation´s Degree',
-    subject: 'Computer´s Information Systems',
-    institution: 'FAI-MG - Faculdade de Administração e Informática'
+    degree: 'Graduação',
+    subject: 'Gestão da Tecnologia da Informação',
+    institution: 'FADBA - Faculdade Adventista da Bahia'
   }
 ]
 
