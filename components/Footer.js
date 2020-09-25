@@ -7,7 +7,6 @@ const Footer = ({ currentDate }) => {
         This website was built during Fullstack Master classes. We used NextJS + SSR (Server Side Rendering) + Vercel (as platform)<br />
         You can find the source-code of this website at:
         <br />
-        <a target="_blank" href='https://github.com/phprograming/phbarbosa.dev'>https://github.com/phprograming/phbarbosa.dev</a>
       </p>
       <p className='text-center my-8 py-4 border-t-2'>Latest version: {currentDate}</p>
     </div>
