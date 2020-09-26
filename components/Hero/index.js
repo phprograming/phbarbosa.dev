@@ -9,8 +9,6 @@ const Hero = () => {
         <h2 className='text-4xl font-bold lg:text-5xl uppercase pl-8'>Fullstack Developer</h2>
         <ContactMe />
       </div>
-      <br />
-      <br />
     </div>
   )
 }
