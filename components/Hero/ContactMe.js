@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaYoutube, FaWhatsapp } from 'react-icons/fa'
 import { FiLink } from 'react-icons/fi'
 
 const ContactMe = () => {
@@ -12,6 +12,9 @@ const ContactMe = () => {
         </a>
         <a target="_blank" href='https://github.com/phprograming' title='GitHub Profile'>
           <FaGithub className='text-5xl md:text-6xl inline-block md:mr-6' />
+        </a>
+        <a target="_blank" href='http://waapp.me/5575988914101' title='WhatsApp Profile'>
+          <FaWhatsapp className='text-5xl md:text-6xl inline-block md:mr-6' />
         </a>
       </p>
     </div>
