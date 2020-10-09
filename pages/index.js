@@ -20,8 +20,8 @@ const Index = (props) => {
 }
 
 export async function getStaticProps() {
-    const request = await fetch(process.env.API_URL + '/api/getUser')
-    //const request = await fetch('https://api.phbarbosa.dev/api/getUser')
+    //const request = await fetch(process.env.API_URL + '/api/getUser')
+    const request = await fetch('https://api.phbarbosa.dev/api/getUser')
     const { repos, user } = await request.json()
     return {
         props: {
