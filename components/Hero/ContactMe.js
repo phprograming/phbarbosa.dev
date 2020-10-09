@@ -1,6 +1,5 @@
 import React from 'react'
-import { FaLinkedin, FaGithub, FaYoutube, FaWhatsapp } from 'react-icons/fa'
-import { FiLink } from 'react-icons/fi'
+import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa'
 
 const ContactMe = () => {
   return (
