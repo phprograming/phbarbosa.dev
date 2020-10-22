@@ -1,5 +1,5 @@
-import React from 'react'
-import Head from 'next/head'
+import React from 'react';
+import Head from 'next/head';
 
 const PageHead = () => {
   return (
@@ -12,4 +12,4 @@ const PageHead = () => {
     </Head>
   )
 }
-export default PageHead
+export default PageHead;

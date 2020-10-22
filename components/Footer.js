@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = ({ currentDate }) => {
   return (
@@ -7,4 +7,4 @@ const Footer = ({ currentDate }) => {
     </div>
   )
 }
-export default Footer
+export default Footer;
