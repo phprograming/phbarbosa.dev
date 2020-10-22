@@ -1,5 +1,5 @@
-import React from 'react'
-import { GoStar } from 'react-icons/go'
+import React from 'react';
+import { GoStar } from 'react-icons/go';
 
 const Repo = ({ repo }) => {
   return(
@@ -9,4 +9,4 @@ const Repo = ({ repo }) => {
     </div>
   )
 }
-export default Repo
+export default Repo;

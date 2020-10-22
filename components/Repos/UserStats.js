@@ -1,7 +1,7 @@
-import React from 'react'
-import { FiUsers } from 'react-icons/fi'
-import { RiGitRepositoryLine } from 'react-icons/ri'
-import { GoGist } from 'react-icons/go'
+import React from 'react';
+import { FiUsers } from 'react-icons/fi';
+import { RiGitRepositoryLine } from 'react-icons/ri';
+import { GoGist } from 'react-icons/go';
 
 const UserStats = ({ user }) => {
   return(
@@ -13,4 +13,4 @@ const UserStats = ({ user }) => {
     </p>
   )
 }
-export default UserStats
+export default UserStats;

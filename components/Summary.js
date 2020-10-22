@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 const Summary = () => {
   return (
     <div>
-      <h3 className='text-4xl font-bold text-center uppercase mt-10 mb-5 text-orange'>About me</h3>
+      <h3 className='text-4xl font-bold text-center uppercase mt-10 mb-5 text-blue-500'>About me</h3>
       <div className='bg-white rounded-lg shadow-lg py-12 px-8 mx-8 md:mx-0 md:px-16'>
-        {/*<h3 className='text-4xl text-center text-orange'>What I do</h3>*/}
         <p className='text-2xl'>
           I am a 22 year old who is passionate about technology! I am constantly evolving in the area of WEB Development, Mobile and Backend. Currently I work as a PHP Developer, every day improving myself on current technologies such as: ReactJS, React Native and NodeJS.
         </p>
@@ -13,4 +12,4 @@ const Summary = () => {
     </div>
   )
 }
-export default Summary
+export default Summary;
