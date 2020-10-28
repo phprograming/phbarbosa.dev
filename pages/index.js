@@ -1,6 +1,7 @@
 import React from 'react';
 import PageHead from '../components/PageHead';
 import Hero from '../components/Hero';
+import Technology from '../components/Technology';
 import Summary from '../components/Summary';
 import Education from '../components/Education';
 import Footer from '../components/Footer';
@@ -11,6 +12,7 @@ const Index = (props) => {
         <div className='container mx-auto bg-network-left lg:bg-network-right'>
             <PageHead />
             <Hero />
+            <Technology />
             <Summary />
             <Education />
             <Repos user={props.user} repos={props.repos} />
@@ -20,9 +22,9 @@ const Index = (props) => {
 }
 
 export async function getStaticProps() {
-    const request = await fetch(process.env.API_URL + '/api/getUser')
-    //const request = await fetch('https://api.phbarbosa.dev/api/getUser')
-    const { repos, user } = await request.json()
+    const request = await fetch(process.env.API_URL + '/api/getUser');
+
+    const { repos, user } = await request.json();
     return {
         props: {
             currentDate: new Date().toString(),
