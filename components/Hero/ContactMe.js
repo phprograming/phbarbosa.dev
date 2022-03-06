@@ -13,7 +13,7 @@ const ContactMe = () => {
         <a target="_blank" href='https://github.com/phprograming' title='GitHub Profile'>
           <FaGithub className='text-5xl md:text-6xl inline-block md:mr-6' />
         </a>
-        <a target="_blank" href='http://waapp.me/5575988914101' title='WhatsApp Profile'>
+        <a target="_blank" href='http://waapp.me/5575992171298' title='WhatsApp Profile'>
           <FaWhatsapp className='text-5xl md:text-6xl inline-block md:mr-6' />
         </a>
         <a target="_blank" href='https://app.rocketseat.com.br/me/phbarbosa' title='Rocketseat Profile'>
