@@ -4,7 +4,7 @@ import Head from 'next/head';
 const PageHead = () => {
   return (
     <Head>
-      <title>Paulo Henrique - Fullstack Developer</title>
+      <title>Henrique Barbosa - Fullstack Developer</title>
       <link rel='manifest' href='/manifest.json' />
       <meta name='msapplication-TileColor' content='#ffffff' />
       <link rel='icon' type='image/png' sizes='32x32' href='/favicon.png' />
